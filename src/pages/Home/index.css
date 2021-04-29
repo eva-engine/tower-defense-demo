@@ -1,0 +1,164 @@
+.app {
+  position: relative;
+  margin: 0;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url('../../assets/image/weapon_page_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nav {
+  position: relative;
+  margin: calc(20*var(--baseViewport)) 0 calc(40*var(--baseViewport)) 0;
+  padding: 0 calc(60*var(--baseViewport));
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .gold {
+  position: relative;
+  padding-right: calc(20*var(--baseViewport));
+  width: calc(200*var(--baseViewport));
+  height: calc(79*var(--baseViewport));
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: PingFangSC-Semibold;
+  font-size: calc(28*var(--baseViewport));
+  color: #ffffff;
+  background-image: url('../../assets/image/nav_gold_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nav .eva {
+  position: relative;
+  width: calc(103*var(--baseViewport));
+  height: calc(53*var(--baseViewport));
+  background-image: url('../../assets/image/nav_eva.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.weapons {
+  position: relative;
+  padding: calc(84*var(--baseViewport)) calc(10*var(--baseViewport)) 0 calc(10*var(--baseViewport));
+  width: calc(633*var(--baseViewport));
+  height: calc(343*var(--baseViewport));
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('../../assets/image/weapons_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.separator {
+  position: relative;
+  padding: 0 calc(134*var(--baseViewport));
+  width: calc(633*var(--baseViewport));
+  height: calc(78*var(--baseViewport));
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.separator .separator-img {
+  position: relative;
+  width: calc(30*var(--baseViewport));
+  height: calc(34*var(--baseViewport));
+  background-image: url('../../assets/image/separator.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.weapon-detail {
+  position: relative;
+  width: calc(633*var(--baseViewport));
+  height: calc(438*var(--baseViewport));
+  background-image: url('../../assets/image/weapon_detail_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: calc(82*var(--baseViewport)) 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start {
+  cursor: pointer;
+  position: relative;
+  margin-top: calc(72*var(--baseViewport));
+  width: calc(633*var(--baseViewport));
+  height: calc(123*var(--baseViewport));
+  background-image: url('../../assets/image/start.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.element-normal {
+  background-image: url('../../assets/image/element_building_normal.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.element-fire {
+  background-image: url('../../assets/image/element_building_fire.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.element-water {
+  background-image: url('../../assets/image/element_building_water.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.element-wood {
+  background-image: url('../../assets/image/element_building_wood.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.element-badge-normal {
+  background-image: url('../../assets/image/element_badge_normal.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.element-badge-fire {
+  background-image: url('../../assets/image/element_badge_fire.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.element-badge-water {
+  background-image: url('../../assets/image/element_badge_water.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.element-badge-wood {
+  background-image: url('../../assets/image/element_badge_wood.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.element-selected {
+  background-image: url('../../assets/image/weapon_selected_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.element-unselect {
+  background-image: url('../../assets/image/weapon_unselect_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

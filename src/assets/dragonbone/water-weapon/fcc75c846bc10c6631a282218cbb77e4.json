@@ -1,0 +1,2 @@
+
+{"name":"tower_water","SubTexture":[{"name":"冰块","x":1,"frameWidth":189,"height":137,"y":1,"frameHeight":189,"frameX":-14,"frameY":-25,"width":160},{"name":"房屋","x":1,"frameWidth":189,"height":111,"y":140,"frameHeight":189,"frameX":-30,"frameY":-50,"width":133},{"name":"鱼缸","x":136,"frameWidth":189,"height":46,"y":140,"frameHeight":189,"frameX":-90,"frameY":-57,"width":59},{"name":"鱼","x":197,"frameWidth":189,"height":13,"y":140,"frameHeight":189,"frameX":-101,"frameY":-79,"width":27}],"imagePath":"tower_water_tex.png","height":256,"width":256}

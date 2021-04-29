@@ -1,0 +1,2 @@
+
+{"name":"fire","SubTexture":[{"name":"pic01","x":195,"height":39,"y":103,"width":33},{"name":"pic02","x":195,"height":39,"y":144,"width":33},{"name":"pic04","x":195,"height":49,"y":52,"width":50},{"name":"pic03","x":195,"height":49,"y":1,"width":50},{"name":"pic5","x":1,"height":184,"y":1,"width":192}],"imagePath":"fire_tex.png","height":256,"width":256}
