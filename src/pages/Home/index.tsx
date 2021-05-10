@@ -1,4 +1,4 @@
-import { createElement, useCallback, useState, memo } from 'react';
+import { useCallback, useState, memo } from 'react';
 import { useHistory } from 'react-router-dom';
 import { UserData } from '../../data';
 import { EVAGame } from '../../eva-game-types';
@@ -22,15 +22,15 @@ function Home() {
     setGold(UserData.player.Gold);
   }, []);
 
-  const onStart = useCallback(() => {
+  const onStart = () => {
     history.push('/game')
-  }, []);
+  };
 
   return (
     <div className="app">
       <div className="nav">
         <div className="gold">{gold}</div>
-        <a href="https://eva.js.org/" className="eva" />
+        <a href="https://eva.js.org/" className="eva">Eva.js</a>
       </div>
       <div className="weapons">
         {

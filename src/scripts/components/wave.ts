@@ -14,6 +14,7 @@ class WaveSystem extends System {
   static systemName = 'wave';
   waves!: EVAGame.IWave[];
 
+  // eslint-disable-next-line
   constructor(params: EVAGame.IWave[]) {
     super(params);
   }

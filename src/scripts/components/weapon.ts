@@ -18,6 +18,7 @@ export class WeaponComponent extends Component {
   attackCount!: number;
   attacking!: ReturnType<typeof setInterval>;
 
+  // eslint-disable-next-line
   constructor(params: WeaponParams) {
     super(params);
   }
@@ -76,6 +77,7 @@ class WeaponSystem extends System {
   static systemName = 'weapon';
   baseDamage!: EVAGame.IElementalDamage;
 
+  // eslint-disable-next-line
   constructor(params: EVAGame.IElementalDamage) {
     super(params);
   }

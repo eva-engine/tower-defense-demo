@@ -24,6 +24,7 @@ export class MapComponent extends Component {
   x!: number;
   y!: number;
 
+  // eslint-disable-next-line
   constructor(params: MapParams) {
     super(params);
   }
@@ -70,6 +71,7 @@ class MapSystem extends System {
   private column!: number;
   private row!: number;
 
+  // eslint-disable-next-line
   constructor(params: MapSystemParams) {
     super(params);
   }

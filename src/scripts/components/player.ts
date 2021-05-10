@@ -9,6 +9,7 @@ export class PlayerComponent extends Component {
   healthPoint!: number;
   gold!: number;
 
+  // eslint-disable-next-line
   constructor(params: PlayerParams) {
     super(params);
   }

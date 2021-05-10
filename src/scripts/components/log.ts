@@ -45,6 +45,7 @@ export interface LogSystemParams {}
 class GameLogSystem extends System {
   static systemName = 'gamelog';
 
+  // eslint-disable-next-line
   constructor(params?: LogSystemParams) {
     super(params);
   }

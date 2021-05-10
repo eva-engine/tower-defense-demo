@@ -55,6 +55,7 @@ export class EnemyComponent extends Component {
   moving!: ReturnType<typeof setInterval>;
   distance: number = 0;
 
+  // eslint-disable-next-line
   constructor(params: EnemyParams) {
     super(params);
   }
@@ -109,6 +110,7 @@ export interface EnemySystemParams {}
 class EnemySystem extends System {
   static systemName = 'enemy';
 
+  // eslint-disable-next-line
   constructor(params?: EnemySystemParams) {
     super(params);
   }

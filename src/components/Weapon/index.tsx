@@ -1,4 +1,4 @@
-import { createElement, useCallback } from 'react';
+import React from 'react';
 import { EVAGame } from '../../eva-game-types';
 import './index.css';
 
@@ -9,9 +9,9 @@ interface IWeaponComponentProps {
 }
 
 export default function Weapon({ weapon, onSelected, selected }: IWeaponComponentProps) {
-  const select = useCallback(() => {
+  const select = () => {
     onSelected(weapon.element);
-  }, []);
+  };
 
   return (
     <div className="weapon" onClick={select}>

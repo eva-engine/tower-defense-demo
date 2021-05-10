@@ -1,4 +1,4 @@
-import { createElement, useCallback, useState } from 'react';
+import { useState } from 'react';
 import { EVAGame } from '../../eva-game-types';
 import './index.css';
 
@@ -12,7 +12,7 @@ interface IWeaponDetailComponentProps {
 export default function WeaponDetail({ weapon, selected, restGold, onLvChange }: IWeaponDetailComponentProps) {
   const [level, setLevel] = useState(weapon.level);
 
-  const onDowngradeChange = useCallback(() => {
+  const onDowngradeChange = () => {
     if (weapon.level === 1) {
       return;
     }
@@ -20,9 +20,9 @@ export default function WeaponDetail({ weapon, selected, restGold, onLvChange }:
     weapon.level -=1
     setLevel(weapon.level);
     onLvChange(-weapon.cost);
-  }, [restGold]);
+  };
 
-  const onUpgradeChange = useCallback(() => {
+  const onUpgradeChange = () => {
     if (restGold - weapon.cost < 0) {
       return;
     }
@@ -30,7 +30,7 @@ export default function WeaponDetail({ weapon, selected, restGold, onLvChange }:
     weapon.level += 1;
     setLevel(weapon.level);
     onLvChange(weapon.cost);
-  }, [restGold]);
+  };
 
   return (
     <div className="weapon_card" style={{ display: selected ? 'flex' : 'none' }}>

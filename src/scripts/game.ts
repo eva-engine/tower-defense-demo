@@ -13,7 +13,7 @@ import { WeaponComponent, WeaponSystem } from './components/weapon';
 import { EnemySystem, EnemyComponent } from './components/enemy';
 import { MapSystem } from './components/map';
 import { WaveSystem, WaveComponent } from './components/wave';
-import { GameLogSystem } from './components/log';
+// import { GameLogSystem } from './components/log';
 import { ClockComponent } from './components/clock';
 import * as prefab from './prefab';
 
