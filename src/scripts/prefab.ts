@@ -167,15 +167,15 @@ const playerResource: (DragonBoneResource | ImageResource)[] = [{
   src: {
     image: {
       type: 'png',
-      url: '/assets/dragonbone/robot/TB13RfXrwgP7K4jSZFqXXamhVXa-256-256.png',
+      url: './assets/dragonbone/robot/TB13RfXrwgP7K4jSZFqXXamhVXa-256-256.png',
     },
     tex: {
       type: 'json',
-      url: '/assets/dragonbone/robot/649a2382b6e70d4d3d9096301e1e9b0e.json',
+      url: './assets/dragonbone/robot/649a2382b6e70d4d3d9096301e1e9b0e.json',
     },
     ske: {
       type: 'json',
-      url: '/assets/dragonbone/robot/9f25675eaad7275307f4969cbad4fe99.json',
+      url: './assets/dragonbone/robot/9f25675eaad7275307f4969cbad4fe99.json',
     },
   },
   preload: true,
@@ -185,7 +185,7 @@ const playerResource: (DragonBoneResource | ImageResource)[] = [{
   src: {
     image: {
       type: 'png',
-      url: '/assets/image/heart.png',
+      url: './assets/image/heart.png',
     },
   },
   preload: true
@@ -258,15 +258,15 @@ const weaponResources: DragonBoneResource[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/dragonbone/normal-weapon/TB1D1mM4Lb2gK0jSZK9XXaEgFXa-256-256.png',
+        url: './assets/dragonbone/normal-weapon/TB1D1mM4Lb2gK0jSZK9XXaEgFXa-256-256.png',
       },
       tex: {
         type: 'json',
-        url: '/assets/dragonbone/normal-weapon/53f7268e6db5a0d8aa7765e721d6c50c.json',
+        url: './assets/dragonbone/normal-weapon/53f7268e6db5a0d8aa7765e721d6c50c.json',
       },
       ske: {
         type: 'json',
-        url: '/assets/dragonbone/normal-weapon/6a0de7df81565d7eeee74a7a5d5c90a2.json',
+        url: './assets/dragonbone/normal-weapon/6a0de7df81565d7eeee74a7a5d5c90a2.json',
       },
     },
     preload: true,
@@ -277,15 +277,15 @@ const weaponResources: DragonBoneResource[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/dragonbone/fire-weapon/TB1Y65H4KL2gK0jSZPhXXahvXXa-256-256.png',
+        url: './assets/dragonbone/fire-weapon/TB1Y65H4KL2gK0jSZPhXXahvXXa-256-256.png',
       },
       tex: {
         type: 'json',
-        url: '/assets/dragonbone/fire-weapon/2d18bc3f44529c8bb0745230b2008331.json',
+        url: './assets/dragonbone/fire-weapon/2d18bc3f44529c8bb0745230b2008331.json',
       },
       ske: {
         type: 'json',
-        url: '/assets/dragonbone/fire-weapon/bf59a0d33ba196fdf17401cc2ff35d04.json',
+        url: './assets/dragonbone/fire-weapon/bf59a0d33ba196fdf17401cc2ff35d04.json',
       },
     },
     preload: true,
@@ -296,15 +296,15 @@ const weaponResources: DragonBoneResource[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/dragonbone/water-weapon/TB1zsuL4Uz1gK0jSZLeXXb9kVXa-256-256.png',
+        url: './assets/dragonbone/water-weapon/TB1zsuL4Uz1gK0jSZLeXXb9kVXa-256-256.png',
       },
       tex: {
         type: 'json',
-        url: '/assets/dragonbone/water-weapon/fcc75c846bc10c6631a282218cbb77e4.json',
+        url: './assets/dragonbone/water-weapon/fcc75c846bc10c6631a282218cbb77e4.json',
       },
       ske: {
         type: 'json',
-        url: '/assets/dragonbone/water-weapon/469a8af43daec65b35d9d9a0a257a472.json',
+        url: './assets/dragonbone/water-weapon/469a8af43daec65b35d9d9a0a257a472.json',
       },
     },
     preload: true,
@@ -315,15 +315,15 @@ const weaponResources: DragonBoneResource[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/dragonbone/wood-weapon/TB12teOt_M11u4jSZPxXXahcXXa-256-256.png',
+        url: './assets/dragonbone/wood-weapon/TB12teOt_M11u4jSZPxXXahcXXa-256-256.png',
       },
       tex: {
         type: 'json',
-        url: '/assets/dragonbone/wood-weapon/42726fc745c6e3c227a9c8d28865d49d.json',
+        url: './assets/dragonbone/wood-weapon/42726fc745c6e3c227a9c8d28865d49d.json',
       },
       ske: {
         type: 'json',
-        url: '/assets/dragonbone/wood-weapon/6bad23c6f2966b0c952a95cb2fdce202.json',
+        url: './assets/dragonbone/wood-weapon/6bad23c6f2966b0c952a95cb2fdce202.json',
       },
     },
     preload: true,
@@ -384,7 +384,7 @@ const bulletResources: ImageResource[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/image/normal-bullet.png',
+        url: './assets/image/normal-bullet.png',
       },
     },
     preload: true,
@@ -395,7 +395,7 @@ const bulletResources: ImageResource[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/image/fire-bullet.png',
+        url: './assets/image/fire-bullet.png',
       },
     },
     preload: true,
@@ -406,7 +406,7 @@ const bulletResources: ImageResource[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/image/water-bullet.png',
+        url: './assets/image/water-bullet.png',
       },
     },
     preload: true,
@@ -417,7 +417,7 @@ const bulletResources: ImageResource[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/image/wood-bullet.png',
+        url: './assets/image/wood-bullet.png',
       },
     },
     preload: true,
@@ -508,15 +508,15 @@ const enemyResources: (DragonBoneResource | ImageResource)[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/dragonbone/enemy-normal/TB1XrNR4UY1gK0jSZFMXXaWcVXa-256-256.png',
+        url: './assets/dragonbone/enemy-normal/TB1XrNR4UY1gK0jSZFMXXaWcVXa-256-256.png',
       },
       tex: {
         type: 'json',
-        url: '/assets/dragonbone/enemy-normal/86d3a8d59acaf29d24c8db90a8c2113e.json',
+        url: './assets/dragonbone/enemy-normal/86d3a8d59acaf29d24c8db90a8c2113e.json',
       },
       ske: {
         type: 'json',
-        url: '/assets/dragonbone/enemy-normal/c8c2a5ab1f07ec118d8341770b025377.json',
+        url: './assets/dragonbone/enemy-normal/c8c2a5ab1f07ec118d8341770b025377.json',
       },
     },
     preload: true,
@@ -527,15 +527,15 @@ const enemyResources: (DragonBoneResource | ImageResource)[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/dragonbone/enemy-water/TB155BQ4FT7gK0jSZFpXXaTkpXa-256-256.png',
+        url: './assets/dragonbone/enemy-water/TB155BQ4FT7gK0jSZFpXXaTkpXa-256-256.png',
       },
       tex: {
         type: 'json',
-        url: '/assets/dragonbone/enemy-water/9e750ffd7a4e22de9a1b07f2c2d647be.json',
+        url: './assets/dragonbone/enemy-water/9e750ffd7a4e22de9a1b07f2c2d647be.json',
       },
       ske: {
         type: 'json',
-        url: '/assets/dragonbone/enemy-water/d54d187987edd2f9301a0954b0457673.json',
+        url: './assets/dragonbone/enemy-water/d54d187987edd2f9301a0954b0457673.json',
       },
     },
     preload: true,
@@ -546,15 +546,15 @@ const enemyResources: (DragonBoneResource | ImageResource)[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/dragonbone/enemy-fire/TB1xcFzqQcx_u4jSZFlXXXnUFXa-256-256.png',
+        url: './assets/dragonbone/enemy-fire/TB1xcFzqQcx_u4jSZFlXXXnUFXa-256-256.png',
       },
       tex: {
         type: 'json',
-        url: '/assets/dragonbone/enemy-fire/9aa0f6c67e7f4b674ecbdd14d6261434.json',
+        url: './assets/dragonbone/enemy-fire/9aa0f6c67e7f4b674ecbdd14d6261434.json',
       },
       ske: {
         type: 'json',
-        url: '/assets/dragonbone/enemy-fire/9f628e03da2e9ee5f441d496d68167e0.json',
+        url: './assets/dragonbone/enemy-fire/9f628e03da2e9ee5f441d496d68167e0.json',
       },
     },
     preload: true,
@@ -565,15 +565,15 @@ const enemyResources: (DragonBoneResource | ImageResource)[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/dragonbone/enemy-wood/TB1sbpZ4UY1gK0jSZFCXXcwqXXa-256-256.png',
+        url: './assets/dragonbone/enemy-wood/TB1sbpZ4UY1gK0jSZFCXXcwqXXa-256-256.png',
       },
       tex: {
         type: 'json',
-        url: '/assets/dragonbone/enemy-wood/8c54ab67e9abdb571749403a51b0f3e1.json',
+        url: './assets/dragonbone/enemy-wood/8c54ab67e9abdb571749403a51b0f3e1.json',
       },
       ske: {
         type: 'json',
-        url: '/assets/dragonbone/enemy-wood/deb0c3308470969e2fd6a455be4fb368.json',
+        url: './assets/dragonbone/enemy-wood/deb0c3308470969e2fd6a455be4fb368.json',
       },
     },
     preload: true,
@@ -584,7 +584,7 @@ const enemyResources: (DragonBoneResource | ImageResource)[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/image/element_badge_normal.png',
+        url: './assets/image/element_badge_normal.png',
       },
     },
     preload: true,
@@ -595,7 +595,7 @@ const enemyResources: (DragonBoneResource | ImageResource)[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/image/element_badge_fire.png',
+        url: './assets/image/element_badge_fire.png',
       },
     },
     preload: true,
@@ -606,7 +606,7 @@ const enemyResources: (DragonBoneResource | ImageResource)[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/image/element_badge_water.png',
+        url: './assets/image/element_badge_water.png',
       },
     },
     preload: true,
@@ -617,7 +617,7 @@ const enemyResources: (DragonBoneResource | ImageResource)[] = [
     src: {
       image: {
         type: 'png',
-        url: '/assets/image/element_badge_wood.png',
+        url: './assets/image/element_badge_wood.png',
       },
     },
     preload: true,

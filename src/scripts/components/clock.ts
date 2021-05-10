@@ -6,7 +6,7 @@ export function now() {
 
 export class ClockComponent extends Component {
   static componentName = 'clock';
-  private _startTime: number = 0;
+  private _startTime!: number;
   level = 1;
 
   get pastTime() {
@@ -17,7 +17,7 @@ export class ClockComponent extends Component {
     return this._startTime;
   }
 
-  start() {
+  awake() {
     this._startTime = now();
   }
 

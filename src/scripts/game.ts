@@ -7,6 +7,7 @@ import { Event, EventSystem } from '@eva/plugin-renderer-event';
 import { TextSystem } from '@eva/plugin-renderer-text';
 import { ImgSystem } from '@eva/plugin-renderer-img';
 import { RenderSystem } from '@eva/plugin-renderer-render';
+import { TransitionSystem } from '@eva/plugin-transition';
 import { PlayerSystem } from './components/player';
 import { WeaponComponent, WeaponSystem } from './components/weapon';
 import { EnemySystem, EnemyComponent } from './components/enemy';
@@ -60,6 +61,7 @@ export default class GameScript {
         new GraphicsSystem(),
         new DragonBoneSystem(),
         new ImgSystem(),
+        new TransitionSystem(),
         new RenderSystem(),
       ],
     }));

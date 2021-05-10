@@ -1,10 +1,10 @@
-import { createElement, useEffect, useRef, useState } from 'react';
+import { createElement, useEffect, useRef, useState, memo } from 'react';
 import { UserData } from '../../data';
 import GameScript from '../../scripts/game';
 import Result from '../../components/Result';
 import './index.css';
 
-export default function Home() {
+function Game() {
   const [result, setResult] = useState<any>(null);
   const canvasEl = useRef<HTMLCanvasElement>(null);
   const game = new GameScript(UserData);
@@ -26,3 +26,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default memo(Game);

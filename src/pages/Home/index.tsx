@@ -1,4 +1,4 @@
-import { createElement, useCallback, useState } from 'react';
+import { createElement, useCallback, useState, memo } from 'react';
 import { useHistory } from 'react-router-dom';
 import { UserData } from '../../data';
 import { EVAGame } from '../../eva-game-types';
@@ -6,7 +6,7 @@ import Weapon from '../../components/Weapon';
 import WeaponDetail from '../../components/WeaponDetail';
 import './index.css';
 
-export default function Home() {
+function Home() {
   const history = useHistory();
 
   const [gold, setGold] = useState(UserData.player.Gold);
@@ -30,7 +30,7 @@ export default function Home() {
     <div className="app">
       <div className="nav">
         <div className="gold">{gold}</div>
-        <a href="https://eva.js.org/evajs-open/pages/demo.htm" className="eva" />
+        <a href="https://eva.js.org/" className="eva" />
       </div>
       <div className="weapons">
         {
@@ -64,3 +64,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default memo(Home);

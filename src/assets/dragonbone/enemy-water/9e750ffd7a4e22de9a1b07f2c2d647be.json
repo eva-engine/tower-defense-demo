@@ -1,2 +1,0 @@
-
-{"name":"slimer_water","SubTexture":[{"name":"slimer_02","x":1,"height":186,"y":1,"width":188},{"name":"drum","x":1,"frameWidth":126,"height":65,"y":189,"frameHeight":65,"frameX":-1,"frameY":0,"width":125},{"name":"hand_left","x":191,"height":33,"y":1,"width":61},{"name":"hand_right","x":128,"height":44,"y":189,"width":74}],"imagePath":"slimer_water_tex.png","height":256,"width":256}

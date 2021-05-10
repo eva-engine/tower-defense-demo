@@ -4,12 +4,7 @@ import { PlayerComponent } from './player';
 
 export class WaveComponent extends Component {
   static componentName = 'wave';
-
   count = 0;
-
-  start() {
-    this.count = 0;
-  }
 }
 
 @decorators.componentObserver({
