@@ -191,8 +191,6 @@ class EnemySystem extends System {
       }
     }
   }
-
-  onDestroy() {}
 }
 
 export { EnemySystem };

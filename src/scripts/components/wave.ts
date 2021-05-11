@@ -45,8 +45,6 @@ class WaveSystem extends System {
       }
     }
   }
-
-  onDestroy() {}
 }
 
 export { WaveSystem };

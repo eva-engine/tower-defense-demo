@@ -64,8 +64,6 @@ class GameLogSystem extends System {
       message.length = 0;
     }
   }
-
-  onDestroy() {}
 }
 
 export { GameLogSystem };

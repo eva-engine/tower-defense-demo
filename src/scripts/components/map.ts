@@ -157,8 +157,6 @@ class MapSystem extends System {
       }
     }
   }
-
-  onDestroy() {}
 }
 
 export { MapSystem };

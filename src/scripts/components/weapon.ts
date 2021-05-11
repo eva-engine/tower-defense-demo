@@ -115,8 +115,6 @@ class WeaponSystem extends System {
       }
     }
   }
-
-  onDestroy() {}
 }
 
 export { WeaponSystem };
