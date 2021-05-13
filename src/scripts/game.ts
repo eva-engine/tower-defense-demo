@@ -167,12 +167,10 @@ export default class GameScript {
     this.game.start();
     this.startWave();
     this.startAttack();
+  }
 
-    return new Promise((resolve) => {
-      this.game.once('result', (result) => {
-        resolve(result);
-      });
-    });
+  onEnd(fn: (result: any) => void) {
+    this.game.once('result', fn);
   }
 
   pause() {

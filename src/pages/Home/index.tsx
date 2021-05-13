@@ -23,7 +23,7 @@ function Home() {
   }, []);
 
   const onStart = () => {
-    history.push('/game')
+    history.push('/game');
   };
 
   return (

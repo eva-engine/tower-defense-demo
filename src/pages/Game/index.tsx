@@ -10,17 +10,16 @@ function Game() {
 
   useEffect(() => {
     let game: GameScript;
-    if (result === null && canvasEl.current) {
+
+    if (canvasEl.current) {
       game = new GameScript(UserData);
       game.init(canvasEl.current);
-      game.start()
-        .then((result) => {
-          setResult(result);
-        });
+      game.start();
+      game.onEnd(setResult);
     }
 
-    return () => game.destory()
-  }, [result]);
+    return () => game?.destory();
+  }, []);
 
   return (
     <div className="game">
