@@ -1,12 +1,12 @@
 # tower-defense-demo
 
-A Tower Defense Game Demo for Eva.js. Teach you how to develop games with ECS.
+A Tower Defense Game Demo for Eva.js. Teach you how to develop games with Web & ECS.
 
 ## Online Demo
 
-[Visit](https://g.alicdn.com/eva/tower-game-public/0.0.2/index.html)
+[Visit](https://eva.js.org/tower-defense-demo/)
 
-![https://g.alicdn.com/eva/tower-game-public/0.0.2/index.html](https://gw.alicdn.com/imgextra/i3/O1CN01Oax9v61zyCnKTp1YX_!!6000000006782-2-tps-400-400.png)
+![https://eva.js.org/tower-defense-demo/](https://gw.alicdn.com/imgextra/i3/O1CN012aNzwL1WCSePg3hAr_!!6000000002752-2-tps-400-400.png)
 
 ## Develop
 
